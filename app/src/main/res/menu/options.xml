@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/options_menu"
+        android:title="Chart"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="Settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/addfriend"
+                android:title="Show Friends"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/logout"
+                android:title="LogOut"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
